@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&family=Uncial+Antiqua&display=swap');
+
+.background{
+    background: url(wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: 1px 1px brown;
+}
+
+#logo{
+    position: relative;
+    right: 1250px;
+    width: 60px;
+}
+
+a:link{
+    color: rgb(63, 184, 99);
+}
+  
+a:visited{
+    color: rgb(63, 184, 99);
+}
+  
+a:hover{
+    color: rgb(166, 245, 189);
+}
+  
+a:active{
+    color: rgb(144, 243, 173);
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Fahkwang';
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 40px;
+    font-size: 54px;
+}
+
+#welcomesplash{
+    font-family: 'Uncial Antiqua';
+    font-size: 60px;
+    color: rgb(63, 184, 99);
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px brown;
+    text-align: center;
+    padding: 25px;
+}
+
+.sidebyside{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dragon{
+    width: 800px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
